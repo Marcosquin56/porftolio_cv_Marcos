@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { headers } from "next/headers";
 import "./globals.css";
 
-const title = "Marcos Quintana | Full-Stack Developer";
+const title = "Marcos Quintana | Desarrollador Full-Stack";
 const description =
-  "Full-stack developer specializing in business tools, process automation, and legacy modernization.";
+  "Desarrollador full-stack especializado en herramientas empresariales, automatización de procesos y modernización de sistemas.";
 
 export async function generateMetadata(): Promise<Metadata> {
   const requestHeaders = await headers();
@@ -15,7 +15,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const protocol =
     requestHeaders.get("x-forwarded-proto") ??
     (host.startsWith("localhost") ? "http" : "https");
-  const imageUrl = `${protocol}://${host}/og.png`;
+  const imageUrl = `${protocol}://${host}/og-es.png`;
 
   return {
     title,
@@ -29,7 +29,7 @@ export async function generateMetadata(): Promise<Metadata> {
           url: imageUrl,
           width: 1731,
           height: 909,
-          alt: "Marcos Quintana — Full-Stack Developer",
+          alt: "Marcos Quintana — Desarrollador Full-Stack",
         },
       ],
     },
@@ -48,7 +48,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body>{children}</body>
     </html>
   );

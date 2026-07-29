@@ -28,4 +28,4 @@ npm run dev
 ## Contacto
 
 - Email: [marcosnoob27@gmail.com](mailto:marcosnoob27@gmail.com)
-- LinkedIn: [marcos-quintana-dev](https://www.linkedin.com/in/marcos-quintana-dev)
+- LinkedIn: [marcos-quintana-dev](https://www.linkedin.com/in/marcos-ezequiel-quintana-ramirez-176514247/)
